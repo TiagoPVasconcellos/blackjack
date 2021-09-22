@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>BlackJack</title>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1>Blackjack</h1>
+        </div>
+        <div class="content">
+            <h3>Let's play Blackjack!</h3>
+            <div class="cards">
+                <p>Cards: </p>
+                <p class="card"></p>
+            </div>
+            <div class ="result">
+                <p>Sum: </p>
+                <p class="sum"></p>
+            </div>
+            <div class="buttons">
+                <button id="start" onclick="start()">START GAME</button>
+                <button id="new" onclick="cardGenerator()">NEW CARD</button>
+                <button onclick="restart()">RESTART</button>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
